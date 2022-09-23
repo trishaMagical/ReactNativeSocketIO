@@ -28,7 +28,7 @@ const io =new Server(server,{
     });
 
 
-    socket.on("disconnect", () => {
+    socket.on("disconnect",() => {
     console.log("User Disconnected", socket.id);
       });
 })
